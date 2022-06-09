@@ -1,0 +1,138 @@
+/* Editing the offcanvas */
+.button_offcanvas {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+/* Adding home section css */
+.home {
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)) ,url("im1.jpeg");
+background-size: cover;
+background-position: center center;
+color: white;
+transition: all .3s;
+}
+.bg-1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)) ,url("img2.jpeg");
+    transition: all .3s;
+}
+.bg-2 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)) ,url("img3.jpeg");
+    transition: all .3s;
+}
+.bg-3 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)) ,url("img4.jpeg");
+    transition: all .3s;
+}
+.bg-4 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)) ,url("img5.jpeg");
+    transition: all .3s;
+}
+.home_row .col-md-3 {
+    position: relative;
+}
+.content_home_row {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: white;
+    color: black;
+    transition: all .3s;
+}
+.home .col-md-3:hover .content_home_row {
+    opacity: 1;
+    position: absolute;
+    top: 0%;
+    transition: all .3s;
+    color: black;
+    background-color: white;
+}
+
+/* Filter section */
+.filter .col-md-5 {
+    position: relative;
+}
+.filter .col-md-5 .fs-1 {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.filter .col-md-5 .fs-1 button {
+box-shadow: 0px 0px 10px 5px white;
+}
+.filter .col-md-5:nth-child(1) {
+    height: 450px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)) ,url("img4.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.filter .col-md-5:nth-child(2) {
+    height: 450px;
+    background-color: rgb(122, 228, 30);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)) ,url("img2.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Blog section */
+
+.content_blog {
+    backdrop-filter: blur(10px);
+}
+.blog .col-md-4 {
+    position: relative;
+}
+
+.blog .content_blog {
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+width: 100%;
+
+}
+/* Collection section */
+.collection {
+    color: white;
+    background-image: linear-gradient(to right bottom, rgb(133, 133, 133), snow);
+}
+.content_collection {
+    backdrop-filter: blur(10px);
+}
+.collection .col-md-4 {
+    position: relative;
+}
+
+.collection .content_collection {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+/* Footer */
+footer {
+    background-image: url(img6.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* Property section */
+.property {
+    height: 500px;
+    width: 100%;
+    background-image: url(img2.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Contact Form */
+.form input, .form textarea {
+    border-radius: 80px;
+    border: 2px solid rgb(122, 228, 30);
+}
